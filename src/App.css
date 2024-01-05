@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,42 @@
   to {
     transform: rotate(360deg);
   }
+} */
+.marginAround{
+  width: 90%;
+  margin: auto;
+}
+/* body{
+  background: #0F041C;
+} */
+.borderRadius{
+  
+  border-radius: 20px 0px 20px 20px;
+}
+
+.customButton {
+  background-color: #3D4083;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  /* border-radius: 5px; */
+  cursor: pointer;
+  margin: 20px auto;
+  /* display: block; */
+}
+.red{
+  color:#9A3C41
+}
+.blue{
+  color: #3D4083;
+}
+.orange{
+  color:#FF5E14
+}
+.ptb{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.subh5{
+  font-weight: bold;
 }

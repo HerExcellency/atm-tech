@@ -1,0 +1,101 @@
+/* HomePage.css */
+
+.home-page {
+    text-align: center;
+    padding: 20px;
+  }
+
+ h1.largeh1{
+    font-size: 65px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    width: 67%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 73px;
+
+  }
+
+  /* Responsive adjustments for the targeted h1 tag */
+  @media screen and (max-width: 1300px) {
+    h1.largeh1 {
+      font-size: calc(30px + 1vw); /* Adjust the base size as needed */
+    }
+  }
+  
+  /* Additional media queries for smaller screens if needed */
+  @media screen and (max-width: 768px) {
+    h1.largeh1 {
+      font-size: 30px; /* Reset to a smaller font size for smaller screens if necessary */
+    }
+  }
+
+  
+  .highlighted {
+    color: #3D4083; /* Change this color to your preference */
+  }
+  
+  p {
+    color: #555;
+    margin: 20px 0;
+  }
+  p.largep{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto
+  }
+  
+  
+  .atm-image {
+    width: 70%; /* Ensures the image takes up the full width of its container */
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+  
+  /* Responsive styles */
+  @media screen and (max-width: 768px) {
+    h1 {
+      font-size: 1.5em;
+    }
+  
+    .atm-image {
+      margin-top: 10px;
+    }
+  }
+  
+  .whatWeDo{
+    margin: 50px auto;
+  }
+  .serviceDet{
+    display: flex;
+    align-items: flex-start;
+    margin-top: 49px !important;
+    margin-bottom: 67px !important;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .serviceCopy{
+    text-align: left;
+    padding: 0px 28px;
+  
+  }
+  h3.subheadWord{
+    width: 84%;
+    margin: 20px auto;
+  }
+  .rowwwd h5{
+    font-weight: bold;
+  }
+  /* .rowwwd img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  } */
+  .wwdDIvImg{
+    justify-content: center;
+    display: flex;
+  }
+  .wwdDIvImg img{
+    max-width: 85%;
+  }
+  

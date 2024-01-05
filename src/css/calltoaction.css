@@ -1,0 +1,19 @@
+.call-to-action{
+    width: 80%;
+    margin: 20px auto;
+    padding: 43px 0px;
+    background: url(../photo/call-action-bg.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.call-to-action p, .call-to-action h1{
+    color: #fff;
+}
+.call-to-action h1{
+    margin-top: 42px;
+    font-size: 50px;
+}
+.action{
+    margin: 47px auto
+}

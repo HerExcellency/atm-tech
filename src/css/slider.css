@@ -1,0 +1,47 @@
+/* Slider.css */
+.slider-container {
+  position: relative;
+  max-width: 800px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.slides-container {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.slider-image {
+  margin: 10px;
+  width: calc(100% / 3);
+  height: auto;
+  flex-shrink: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.slider-image.active {
+  opacity: 1;
+}
+
+.arrow-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.arrow-button:focus {
+  outline: none;
+}
+
+.arrow-button.left {
+  left: 0;
+}
+
+.arrow-button.right {
+  right: 0;
+}
