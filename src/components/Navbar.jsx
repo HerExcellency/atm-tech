@@ -27,7 +27,7 @@ const Navbar = () => {
           <a href="/">Home</a>
           <a href="/about">About</a>
           <a href="#">Services</a>
-          <a href="projects">Projects</a>
+          <a href="/projects">Projects</a>
         </div>
         <div className={`contact ${isMobile ? '' : 'hidden'}`}>
           {/* <a href="#" className="contact-button">
