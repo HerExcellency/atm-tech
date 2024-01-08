@@ -6,6 +6,7 @@ import Navbar from './components/Navbar';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import About from './About';
+import MediaPage from './MediaPage';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Routes>
           <Route path="/" exact element={<Home />} />
           <Route path="/about" exact element={<About />} />
+          <Route path="/projects" exact element={<MediaPage />} />
         </Routes>
       <Footer />
       </div>
