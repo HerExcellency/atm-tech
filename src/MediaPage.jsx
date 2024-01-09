@@ -51,7 +51,14 @@ const MediaPage = () => {
 
   return (
     <div className="media-page">
-      {/* <CustomLanding {...landingProps} /> */}
+      <div style={{textAlign: 'center', marginBottom: '40px'}}>
+        <h1 className='largeh1'>
+          Latest Projects
+        </h1>
+        <p className="largep">
+        Some of the projecst we are proud of. We make every project feel personal because our clients matter.
+        </p>
+    </div>
       <div className='media-button-div'>
         <button onClick={toggleBefore} disabled={!showBefore}>
           Show After
