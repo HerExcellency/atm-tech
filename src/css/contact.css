@@ -1,0 +1,86 @@
+/* Add your preferred CSS reset or normalize.css here */
+
+.contact-us-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .contact-form {
+    flex: 1;
+    margin-right: 20px;
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
+    padding: 20px;
+    backdrop-filter: blur(10px); /* Blur effect for the glassmorphism */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  }
+  
+  .contact-form h2 {
+    margin-bottom: 20px;
+  }
+  
+  .contact-form form {
+    display: grid;
+    gap: 15px;
+    padding: 20px;
+  }
+  
+  .contact-form label {
+    display: block;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+  }
+  
+  .contact-form button {
+    padding: 10px;
+    background-color: #3d4083;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .contact-info {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .contact-icons {
+  }
+  
+  .contact-icons div {
+    margin-bottom: 10px;
+  }
+  
+  .contact-icons i {
+    margin-right: 10px;
+  }
+  
+  .contact-address {
+  }
+  
+  .contact-map {
+    /* Add styles for the map container if needed */
+    margin: auto
+  }
+  
+  /* Example media query for responsive design */
+  @media screen and (max-width: 768px) {
+    .contact-us-container {
+      flex-direction: column;
+    }
+  
+    .contact-form,
+    .contact-info {
+      margin-right: 0;
+    }
+  }
+  

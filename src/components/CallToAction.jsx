@@ -5,7 +5,7 @@ import '../css/calltoaction.css'
 export default function CallToAction() {
   return (
     <div className='action'>
-        <div className="call-to-action borderRadius" style={{color: '#fff'}}>
+        <div className="call-to-action borderRadius" style={{color: '#3d4083', backgroundColor: '#fff'}}>
       <h1 className="largeh1">Have any questions?<br/> Don’t hesitate to reach us</h1>
       <ContactButton />
       

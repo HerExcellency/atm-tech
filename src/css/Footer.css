@@ -42,3 +42,6 @@ padding-left: 0px
     padding-left: 20px;
     padding-right: 20px;
 }
+.footer-logo img{
+    max-width: 81%;
+}

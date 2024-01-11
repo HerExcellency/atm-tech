@@ -18,18 +18,20 @@ const cardData = [
 
 const SpecialCards = () => {
   return (
-    <Grid container spacing={3} style={{ marginTop: '20px' }}>
+    <Grid container spacing={3} style={{ marginTop: '20px'}}>
       {cardData.map((card) => (
         <Grid item xs={12} sm={6} lg={4} key={card.id}>
-          <Card className="card" elevation={3}>
-            <CardContent>
-              <div className="icon-container">{card.icon}</div>
-              <Typography variant="h6">{card.subHeading}</Typography>
-              <Typography variant="body2" color="textSecondary" component="p">
-                {card.paragraph}
-              </Typography>
-            </CardContent>
-          </Card>
+          <div className="card-container">
+            <Card className="card" elevation={3}  >
+              <CardContent>
+                <div className="icon-container">{card.icon}</div>
+                <Typography variant="h6">{card.subHeading}</Typography>
+                <Typography variant="body2" color="textSecondary" component="p">
+                  {card.paragraph}
+                </Typography>
+              </CardContent>
+            </Card>
+          </div>
         </Grid>
       ))}
     </Grid>

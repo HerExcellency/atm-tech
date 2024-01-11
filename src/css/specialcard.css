@@ -2,16 +2,23 @@
     padding: 16px;
     text-align: center;
     transition: border 0.3s ease;
-    border: 1px green solid;
-    box-shadow: none !important;
-    border: 1px solid #fff !important;
+    /* border: 1px green solid; */
+    /* box-shadow: none !important; */
+    /* border: 1px solid #fff !important; */
+    box-shadow: 4px 4px 18px 0px #00000021 !important;
+width: 100%;
 
+  }
+  .card-container{
+    display: flex;
+  height: 100%;
   }
   
   .card:hover {
     border: 2px solid #ececec !important;
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Adjust the values for the hover effect */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
     border-radius: 10px;
+    transition: border 0.3s ease;
       
   }
   

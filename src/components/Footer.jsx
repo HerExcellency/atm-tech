@@ -13,7 +13,7 @@ const Footer = () => {
           <div className="footer-links">
             <div className="col-lg-3 col-sm-6 col-6 addPadding">
               <div className="footer-link">
-                <div className="logo">
+                <div className=" footer-logo">
                 <a href="/" onClick={() => window.location.href = '/'}>
                   <img src="//res.cloudinary.com/ijeomaonuaju/image/upload/v1702479344/dycomnet/shapedDycomney_kggujs.png" alt="Logo" />
                   </a>
