@@ -8,20 +8,29 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import About from './About';
 import MediaPage from './MediaPage';
 import ContactUs from './ContactUs';
+import AnewHead from './components/AnewHead';
+import AnewFooter from './components/AnewFooter';
+import AnewAbout from './AnewAbout';
+import AnewService from './AnewService';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 function App() {
   return (
     <Router >
       <div>
-      <Navbar />
+      {/* <Navbar /> */}
+      <AnewHead />
       
         <Routes>
           <Route path="/" exact element={<Home />} />
-          <Route path="/about" exact element={<About />} />
-          <Route path="/projects" exact element={<MediaPage />} />
-          <Route path="/contact-us" exact element={<ContactUs />} />
+          <Route path="/About" exact element={<AnewAbout />} />
+          <Route path="/Services" exact element={<AnewService />} />
+          <Route path="/Projects" exact element={<MediaPage />} />
+          <Route path="/Contact-us" exact element={<ContactUs />} />
+          
         </Routes>
-      <Footer />
+      {/* <Footer /> */}
+      <AnewFooter />
       </div>
     </Router>
   );

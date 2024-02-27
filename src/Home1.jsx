@@ -9,12 +9,12 @@ import Landing from './components/Landing';
 import CallToAction from './components/CallToAction';
 
 
-const Home = () => {
+const Home1 = () => {
   return (
     <>
     <div className="home-page">
       <Landing />
-      <img src={imagea} alt="ATM" className="atm-image borderRadius" />
+      <img src='//res.cloudinary.com/ijeomaonuaju/image/upload/v1705236593/dycomnet/african-business-male-people-shaking-hands_1_dy9hzr.jpg' alt="ATM" className="atm-image borderRadius" />
       <Partners />
       <WhatWeDo />
       <Specialization />
@@ -24,5 +24,5 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default Home1;
 

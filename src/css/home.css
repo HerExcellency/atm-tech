@@ -36,7 +36,7 @@
   }
   
   p {
-    color: #555;
+    color: #fff;
     margin: 20px 0;
   }
   p.largep{
@@ -96,6 +96,11 @@
     display: flex;
   }
   .wwdDIvImg img{
-    max-width: 70%;
+    max-width: 100%;
   }
-  
+  .text-mutedly{
+    color: #ced4da!important
+  }
+  .text-darken{
+   color: #f8f9fa;
+}

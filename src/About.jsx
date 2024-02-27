@@ -5,7 +5,7 @@ import ImageGallery from './components/ImageGallery';
 export default function About() {
     const landingProps = {
         title: 'About Us',
-        description: 'We are a multi vendor ATM support company driven by passion to deliver quality sales and support services to financial service providers in Africa, particularly in the areas of ATM and e-payment systems.',
+        description: 'Dynamic Communications Network (Dycom.Net) is an indigenous multi-vendor ATM support positioned to deliver cutting edge sales, support and refurbishment services to banks in Nigeria and beyond. We are a registered member of ATM Industry Association (ATMIA), Dycom.Net has technical partnership with major ATM Consulting firms and security outfits in Nigeria and abroad. ',
       };
      const images = [
         '//res.cloudinary.com/ijeomaonuaju/image/upload/v1704440432/dycomnet/image-039_u1jmxo.jpg',

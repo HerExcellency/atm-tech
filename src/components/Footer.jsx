@@ -10,7 +10,7 @@ const Footer = () => {
       <section className="">
         <div className="marginAround">
           {/* Company Section */}
-          <div className="footer-links">
+          <div className="footer-links marginAround">
             <div className="col-lg-3 col-sm-6 col-6 addPadding">
               <div className="footer-link">
                 <div className=" footer-logo">
@@ -133,10 +133,10 @@ const Footer = () => {
       {/* End Footer Area */}
 
       {/* Start Copy Right Area */}
-      <div className="copyright-area pt-0 pb-0">
-        <div className="container">
+      <div className="copyright-area pt-0 pb-0 marginAround">
+        <div className="container marginAround">
           <div className="copyright-area-content">
-            <p style={{ fontSize: '10px', paddingBottom: '10px' }}>
+            <p style={{ fontSize: '10px', paddingBottom: '10px', textAlign: 'center' }}>
               &copy; 2020 - {new Date().getFullYear()} Dycomnet | All Right Reserved
             </p>
           </div>
