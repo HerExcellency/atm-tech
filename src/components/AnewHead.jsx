@@ -14,7 +14,7 @@ export default function AnewHead() {
         </div> */}
         <header id="topnav" className="defaultscroll sticky">
             <div className="container">
-                <a className="logo" href="index.html">
+                <a className="logo" href="/">
                     <span className="logo-light-mode">
                         <img src="//res.cloudinary.com/ijeomaonuaju/image/upload/v1707665457/dycomnet/dycomnetWhit_bxgfyl.png" className="l-dark" height="24" alt=""/>
                         <img src="assets/images/logo-light.png" className="l-light" height="24" alt=""/>
